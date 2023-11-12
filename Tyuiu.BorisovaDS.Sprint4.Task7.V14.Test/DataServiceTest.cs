@@ -17,6 +17,7 @@ namespace Tyuiu.BorisovaDS.Sprint4.Task7.V14.Test
             int res = ds.Calculate(n, m, value);
             int wait = 38;
             Assert.AreEqual(wait, res);
+
         }
     }
 }
